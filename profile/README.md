@@ -1,3 +1,37 @@
+# WE MOVED!
+
+## Reconnecting your fork after the move
+
+From your local repository’s folder:
+
+**1. Check your remotes:**
+
+```bash
+git remote -v
+```
+
+**2. If `upstream` is missing, add it:**
+
+```bash
+git remote add upstream https://github.com/Water-Vulnerability-Analytics/nps_water_vulnerability.git
+```
+
+**If `upstream` already exists, update it instead:**
+
+```bash
+git remote set-url upstream https://github.com/Water-Vulnerability-Analytics/nps_water_vulnerability.git
+```
+
+**3. Fetch updates:**
+
+```bash
+git fetch upstream
+```
+
+Keep `origin` pointing to your own fork. Fetching downloads updates without changing your local files.
+
+---
+
 # Water Vulnerability Analytics (WaVA)
 
 **Open-source tools for transparent, reproducible water resource vulnerability assessment.**
