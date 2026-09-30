@@ -32,7 +32,10 @@ Keep `origin` pointing to your own fork. Fetching downloads updates without chan
 
 ---
 
-# Water Vulnerability Analytics (WaVA)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="wava-lockup-dark.png">
+  <img src="wava-lockup.png" alt="WaVA: Water Vulnerability Analytics" width="480">
+</picture>
 
 **Open-source tools for transparent, reproducible water resource vulnerability assessment.**
 
